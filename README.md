@@ -22,7 +22,7 @@ Development Containers is a combination of both worlds - your development enviro
 1. Start up Visual Studio Code or PyCharm
 1. Your IDE will recognize that `.devcontainer` folder and offer to "open the project in a container". Say yes to this. 
 1. Wait for the Docker image to build and start up
-1. Once the image has started up, start up a new Terminal
+1. Once the image has started up, start up a new Terminal within Visual Studio Code or PyCharm
 1. Start the services with `invenio-cli services setup -N`
 1. Start the application with `invenio-cli run`
 1. Visit the running application at <https://127.0.0.1:5000>
